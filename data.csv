@@ -1,0 +1,13 @@
+Date,Region,Category,Sales,Profit
+2025-01-01,North,Product A,1200,300
+2025-01-01,South,Product B,950,250
+2025-01-01,East,Product C,850,200
+2025-01-01,West,Product D,1250,400
+2025-02-01,North,Product B,1350,320
+2025-02-01,South,Product C,980,260
+2025-02-01,East,Product D,890,210
+2025-02-01,West,Product A,1400,390
+2025-03-01,North,Product C,1500,400
+2025-03-01,South,Product D,1100,330
+2025-03-01,East,Product A,1000,280
+2025-03-01,West,Product B,1300,360
