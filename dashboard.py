@@ -23,6 +23,7 @@ if uploaded_file:
         (df["Category"].isin(category_filter))
     ]
 
+
     if date_filter and len(date_filter) == 2:
         start, end = date_filter
         filtered_df = filtered_df[(filtered_df["Date"] >= pd.to_datetime(start)) & (filtered_df["Date"] <= pd.to_datetime(end))]
@@ -63,3 +64,7 @@ if uploaded_file:
 
 else:
     st.info("📂 Please upload a CSV file to continue.")
+try:
+    import matplotlib
+except ImportError:
+    st.error("Matplotlib is required for heatmap. Please check deployment dependencies.")
